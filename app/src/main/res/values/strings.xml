@@ -5,7 +5,7 @@
     <string name="title_activity_main">Blind Communicator</string>
     <string name="menu_settings">Settings</string>
 
-    <string name="mainWelcome">Welcome to the Blind Communicator system developed by Nimmy patel. Slide up and down to browse between options and slide right to choose the selected item. If your device has a physical keyboard, you can use the directional keys. If you are using TalkBack, slide and select menus using two fingers.</string>
+    <string name="mainWelcome">Welcome to the Blind Communicator system developed by Nimmy patel,pankti sugandhi and margi sadaria. Slide up and down to browse between options and slide right to choose the selected item. If your device has a physical keyboard, you can use the directional keys. If you are using TalkBack, slide and select menus using two fingers.</string>
     <string name="mainMessages">Messages</string>
     <string name="mainMessagesNew">new messages</string>
     <string name="mainMessagesNoNew">Messages. No new messages.</string>

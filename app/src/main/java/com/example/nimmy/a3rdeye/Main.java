@@ -504,14 +504,14 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 //			GlobalVars.talk(getResources().getString(R.string.mainBrowser));
 //			break;
 //
-			case 6: //ALARMS
+			case 5: //ALARMS
 			GlobalVars.selectTextView(alarms,true);
 			//GlobalVars.selectTextView(internet,false);
 			GlobalVars.selectTextView(voicerecorder,false);
 			GlobalVars.talk(GlobalVars.getPendingAlarmsForTodayCountText());
 			break;
 			
-			case 7: //VOICE RECORDER
+			case 6: //VOICE RECORDER
 			GlobalVars.selectTextView(voicerecorder,true);
 			GlobalVars.selectTextView(alarms,false);
 			//GlobalVars.selectTextView(applications,false);
@@ -525,14 +525,14 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 //			GlobalVars.talk(getResources().getString(R.string.mainApplications));
 //			break;
 //
-			case 9: //SETTINGS
+			case 7: //SETTINGS
 			GlobalVars.selectTextView(settings,true);
 			//GlobalVars.selectTextView(applications,false);
 			GlobalVars.selectTextView(status,false);
 			GlobalVars.talk(getResources().getString(R.string.mainSettings));
 			break;
 			
-			case 10: //STATUS
+			case 8: //STATUS
 			GlobalVars.selectTextView(status,true);
 			GlobalVars.selectTextView(messages,false);
 			GlobalVars.selectTextView(settings,false);
@@ -581,28 +581,28 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 				GlobalVars.talk(getResources().getString(R.string.mainMusicPlayerPleaseTryAgain));
 				}
 			break;
+
+//			case 5: //INTERNET
+//			///GlobalVars.startActivity(Browser.class);
+//			break;
 			
-			case 5: //INTERNET
-			///GlobalVars.startActivity(Browser.class);
-			break;
-			
-			case 6: //ALARMS
+			case 5: //ALARMS
 			GlobalVars.startActivity(Alarms.class);
 			break;
 			
-			case 7: //VOICE RECORDER
+			case 6: //VOICE RECORDER
 			GlobalVars.startActivity(VoiceRecorder.class);
 			break;
 			
-			case 8: //APPLICATIONS
+			//case : //APPLICATIONS
 			//GlobalVars.startActivity(Applications.class);
-			break;
+			//break;
 			
-			case 9: //SETTINGS
+			case 7: //SETTINGS
 			GlobalVars.startActivity(Settings.class);
 			break;
 			
-			case 10: //STATUS
+			case 8: //STATUS
 			GlobalVars.talk(getDeviceStatus());
 			break;
 			}
